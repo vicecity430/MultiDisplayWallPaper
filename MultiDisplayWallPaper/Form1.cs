@@ -49,7 +49,7 @@ namespace MultiDisplayWallPaper
             textPath2.Text = pathWindow.SelectedPath;
             pathWindow.Dispose();
 
-
+            //路徑為空則退出
             if (textPath1.Text == "" && textPath2.Text == "")
                 return;
 
